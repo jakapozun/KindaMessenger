@@ -1,0 +1,55 @@
+.CreateRoom{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+    background-color: #fca311;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.RoomForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.RoomForm input {
+    background: #ecf0f3;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.RoomForm button{
+    background: #1DA1F2;
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.RoomForm button:hover {
+    box-shadow: none;
+    background: #14213d;
+    color: #fca311;
+}
+
+.Title{
+    color: #000000;
+}
+
+.Rooms{
+    background-color: #e5e5e5;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.RoomListMessages{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}

@@ -1,0 +1,44 @@
+.Login{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 30px 20px;
+    border-radius: 10px;
+    background-color: #fca311;
+}
+
+.Title{
+    color: #000000;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Form input{
+    background: #ecf0f3;
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.Form button{
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.Form button:hover {
+    box-shadow: none;
+    background: #14213d;
+    color: #fca311;
+}
